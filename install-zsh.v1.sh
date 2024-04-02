@@ -30,12 +30,12 @@ echo "install  ZSH,Oy-My-ZSH"
 apt install zsh 
 
 # Instalar o complemento Oh-My-ZSH
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &&
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Definir ZSH como padrão
-sudo usermod --shell $(which zsh) $USER &&
+sudo usermod --shell $(which zsh) $USER 
 
 echo "Continua..."
-./installplugins.sh 
+
 
 
