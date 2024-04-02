@@ -27,4 +27,4 @@ echo -ne "Progresso: [$progress/$TOTAL_STEPS] $percentage%\r"
 # Dorme pelo intervalo especificado antes da próxima atualização
 sleep $SLEEP_INTERVAL
 
-#echo -e "\nInstalação do ZSH concluída!"
+echo -e "\nInstalação do ZSH concluída!"
